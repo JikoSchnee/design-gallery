@@ -1,0 +1,5 @@
+.DS_Store
+.idea/
+work/
+node_modules/
+*.log

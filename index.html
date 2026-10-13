@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f3ed">
+  <meta name="description" content="A growing collection of web designs by JikoSchnee.">
+  <title>Design Gallery — JikoSchnee</title>
+  <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="wordmark" href="./" aria-label="Design Gallery home">Jiko<span class="wordmark-dot">.</span>Schnee</a>
+    <span class="header-note">Selected web designs</span>
+  </header>
+
+  <main>
+    <div class="intro">
+      <p class="eyebrow">An ongoing collection <span aria-hidden="true">↗</span></p>
+      <h1>Designs worth<br><em>exploring.</em></h1>
+      <p class="intro-copy">A small gallery of websites, built to be opened and experienced.</p>
+    </div>
+
+    <section class="gallery" aria-labelledby="gallery-heading">
+      <div class="section-heading">
+        <h2 id="gallery-heading">The collection</h2>
+        <span>01 / 01</span>
+      </div>
+
+      <a class="design-card" href="nature/" aria-label="Open Nature design">
+        <div class="preview" aria-hidden="true">
+          <div class="preview-top"><span class="preview-menu"><i></i><i></i><i></i></span><img class="preview-logo" src="nature/assets/nature/files/logo-1.png" alt=""><span class="preview-icons">⌕ &nbsp; 🛒</span></div>
+          <div class="preview-hero"><img src="nature/assets/nature/files/6868681711_f37765628e_o.jpg" alt=""><span>The Beauty of<br>Nature</span></div>
+        </div>
+        <div class="card-caption">
+          <div><span class="card-number">01 / Storefront</span><h3>Nature</h3><p>An art shop inspired by the natural world.</p></div>
+          <span class="card-arrow" aria-hidden="true">↗</span>
+        </div>
+      </a>
+    </section>
+  </main>
+
+  <footer><span>JikoSchnee © <span id="year">2026</span></span><span>Made to explore</span></footer>
+  <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+</body>
+</html>
