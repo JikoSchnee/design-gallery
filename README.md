@@ -7,6 +7,7 @@ A collection of static web designs by JikoSchnee, published with GitHub Pages.
 ## Designs
 
 - [Nature](https://jikoschnee.github.io/design-gallery/nature/) — art storefront with a catalog and product page. Cart and subscription interactions are local demos.
+- [Shapes](https://jikoschnee.github.io/design-gallery/shapes/) — Hella Goods pantry storefront with goods catalog, product page, recipes, restaurant menu, and local demo cart.
 
 ## Add a design
 
