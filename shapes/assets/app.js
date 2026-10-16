@@ -95,8 +95,10 @@
       <section class="hero">
         <div class="hero-copy"><span class="hero-kicker">Everyday pantry goods</span><h1><span>HELLA</span><span>GOODS</span></h1></div>
         <div class="hero-frame"><img class="hero-products" src="${asset("hero.png")}" alt="Hella Goods pantry collection" fetchpriority="high"><span class="hero-frame-line"></span></div>
-        <div class="hero-sticker sticker-flavour"><span>Full of<br>flavour</span><img src="${asset("brand/green-burst.png")}" alt=""></div>
-        <div class="hero-sticker sticker-hot"><span>Hot stuff!</span><img src="${asset("brand/hot-stuff.png")}" alt=""></div>
+        <img class="hero-pepper hero-pepper-green" src="${asset("brand/green-burst.png")}" alt="" aria-hidden="true">
+        <img class="hero-pepper hero-pepper-red" src="${asset("brand/hot-stuff.png")}" alt="" aria-hidden="true">
+        <div class="hero-sticker sticker-flavour"><span>Full of<br>flavour</span></div>
+        <div class="hero-sticker sticker-hot"><span>Hot stuff!</span></div>
         <a href="${url("catalog.html")}" class="hero-shop button button-yellow">Shop now ${icon("arrow")}</a>
       </section>
       <section class="brand-line"><p>Everyday pantry goods<br>for the everyday chef.</p><span class="brand-line-scribble">Fresh, bold &amp; full of flavour</span></section>
